@@ -70,7 +70,7 @@ Rollen en verantwoordelijkheden bij informatiebeveiliging behoren te worden gede
 
 > aanhouden, er zijn ook andere eisen gesteld vanuit wetgeving zoals bijvoorbeeld beveiligingsbeheerders suwi, brp, pun, woz. 
 
-#### 5.02.03 Er is een CISO aangesteld conform een vastgesteld CISO-functieprofiel en deze CISO heeft een onafhankelijke positie binnen de organisatie hiërarchie  t.o.v. het lijnmanagement zodat de CISO vrij kan rapporteren aan het bestuur en of het controlerend orgaan. 
+#### 5.02.03 Er is een CISO aangesteld conform een vastgesteld CISO-functieprofiel. Deze CISO is vrij om te rapporteren aan het hoogste management. 
 
   Basishygiëne NIS2
 
@@ -101,7 +101,7 @@ Het management behoort van al het personeel te eisen dat ze informatiebeveiligin
 
 ### Verplichte overheidsspecifieke maatregelen
 
-#### 5.04.01 Er is aansluiting bij een klokkenluidersregeling, zodat iedereen anoniem en veilig overtredingen kan melden.
+> Stel voor om klokkenluiders uit de beveiligingsnorm te halen, dat onderwerp hoort ergens anders
 
   Basishygiëne NIS2
 
@@ -128,7 +128,8 @@ De organisatie behoort contact met de relevante instanties te leggen en te onder
 
 ## Beheersmaatregel 5.06 Contact met speciale belangengroepen  
 
-De organisatie behoort contacten met speciale belangengroepen of andere gespecialiseerde beveiligingsfora en beroepsverenigingen te leggen en te onderhouden.  
+???De organisatie behoort contacten met speciale belangengroepen of andere gespecialiseerde beveiligingsfora en beroepsverenigingen te leggen en te onderhouden. 
+> Vreemde regel, kan die wat toegelicht worden? Betekent dit bijvoorbeeld dat het verplicht is om contacten te hebben met NOREA ISACA ISC2 IBD? En wanneer voldoe je als organisatie aan die regel? Ben je als organisatie in gebreke als de CISO de contributie van ISC2 niet betaalt?
 
 ### Verplichte overheidsspecifieke maatregelen
 
@@ -177,7 +178,7 @@ Er behoort een inventarislijst van informatie en andere gerelateerde bedrijfsmid
 
 ### Verplichte overheidsspecifieke maatregelen
 
-#### 5.09.01 Het opzetten en bijhouden van een nauwkeurige, gedetailleerde en actuele inventaris van alle bedrijfsmiddelen die gebruikt worden voor informatieverwerking. Deze inventarisatie omvat ook de eigenschappen van bedrijfsmiddelen op afstand en cloudomgevingen die met de infrastructuur zijn verbonden. Daarnaast omvat ook bedrijfsmiddelen die regelmatig verbonden zijn met de netwerkinfrastructuur van het bedrijf, zelfs als ze niet onder controle staan van het bedrijf. Controleer en update de inventaris van alle bedrijfsmiddelen twee keer per jaar, of vaker.
+#### 5.09.01 Het opzetten en bijhouden van een voldoend nauwkeurige, gedetailleerde en actuele inventaris van alle bedrijfsmiddelen die gebruikt worden voor informatieverwerking. Deze inventarisatie omvat ook de eigenschappen van bedrijfsmiddelen op afstand en cloudomgevingen die met de infrastructuur zijn verbonden. Daarnaast omvat ook bedrijfsmiddelen die regelmatig verbonden zijn met de netwerkinfrastructuur van het bedrijf, zelfs als ze niet onder controle staan van het bedrijf. Controleer en update de inventaris van alle bedrijfsmiddelen twee keer per jaar, of vaker.
 
   Basishygiëne NIS2, ketenhygiëne
 
@@ -193,6 +194,7 @@ Regels voor het aanvaardbaar gebruik van en procedures voor het omgaan met infor
 ### Verplichte overheidsspecifieke maatregelen
 
 #### 5.10.01Bestuuders moeten kunnen aantonen dat zij opleidingen hebben gevolgd waarmee ze voldoende kennis en vaardigheden hebben gekregen om risico’s op het gebied van cyberbeveiliging te herkennen en de gevolgen ervan te beoordelen op de diensten en/of producten die de organisatie levert.
+> Dit is een stevige discussie waard. Bestuurders moeten organiseren dat dit gebeurt, hoeven beslist die kennis niet zelf te hebben. Het is wat mij betreft dik voldoende met basiskennis van een ISMS, bewustzijn van de eigen rol daarin, een goede CISO, jaarlijks de mening van een externe auditor ter verificatie.
 
   Basishygiëne NIS2
 
@@ -252,6 +254,7 @@ Informatie behoort te worden geclassificeerd volgens de informatiebeveiligingsbe
 ## Beheersmaatregel 5.13 Labelen van informatie  
 
 Om informatie te labelen, behoort een passende reeks procedures te worden ontwikkeld en geïmplementeerd in overeenstemming met het informatieclassificatieschema dat is vastgesteld door de organisatie.  
+> Dit is niet concreet genoeg. Is labelen nu verplicht of niet? En zoja: tot welk effect moet dit leiden? En zijn andere maatregelen ook toegestaan die leiden tot ditzelfde effect? Hoe zou je dit kunnen concretiseren in een setting met 121 Clouds (120 SaaS applicaties en een IaaS PaaS Cloud)? In het verleden heb ik situaties meegemaakt waarbij labeling ernstig negatieve impact had op Beschikbaarheid, ik vind het een tricky mechanisme om verplicht te stellen.
 
 ### Verplichte overheidsspecifieke maatregelen
 
@@ -358,6 +361,7 @@ De toewijzing en het beheer van authenticatie-informatie behoort te worden behee
 2. Signaleer inlogpogingen van onbekende plekken en attendeer de gebruiker hierop.
 
 3. Toegang vanuit het buitenland tot systemen voor medewerkers is alleen toegestaan na instemming door de CISO in overleg met de verantwoordelijke lijnmanager.
+> Op deze manier ontstaat een bewerkelijk beheerproces dat maar beperkt risico's mitigeert. Vooral het fijnkorrelig beoordelen en instellen gaat je opbreken. Tegenvoorstel: Voor toegang vanuit het buitenland is een risicoafweging gemaakt, en zijn de risico's door het management geaccepteerd.
 
 4. Geef multi-factor MFA uit aan een gebruiker nadat de identiteit van de gebruiker met zekerheid is vastgesteld.
 
@@ -368,6 +372,7 @@ De toewijzing en het beheer van authenticatie-informatie behoort te worden behee
 > Aangescherpt onder meer op basis van https://www.ncsc.nl/onderwerpen/multifactorauthenticatie. Maatregel aangepast als gevolg van NIS2 en nieuwe technische mogelijkheden.  
 
 #### 5.17.02 Een wachtwoordmanager of vergelijkbaar of webbrowser is in staat om een waarschuwing te geven als de het wachtwoord voorkomt op lijsten met gecompromitteerde wachtwoorden of het vermoeden bestaat dat het wachtwoord gecompromitteerd is. In dat geval moet het wachtwoord worden gewijzigd. 
+> Moet deze regel er wel in? Met MFA wordt het gewicht van een uitgelekt wachtwoord veel en veel lager
 
   Basishygiëne NIS2
 
@@ -401,6 +406,7 @@ Toegangsrechten voor informatie en andere gerelateerde bedrijfsmiddelen behoren 
 > Ongewijzigd 
 
 #### 5.18.03 Alle uitgegeven toegangsrechten worden minimaal eenmaal per halfjaar beoordeeld. 
+> Hier zou ik het belang willen laten meewegen. Soms vaker, soms minder vaak
 
   Basishygiëne NIS2
 
