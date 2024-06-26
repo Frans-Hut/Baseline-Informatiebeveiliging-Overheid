@@ -76,7 +76,7 @@ De BIO gaat uit van risicomanagement.  Dit is in lijn met doelen uit de NEN-EN-I
 
 De set overheidsmaatregelen vormen de basishygiëne op gebied van informatiebeveiliging van elke (overheids)organisatie en worden zonder meer getroffen, los van hoge of lage risico-acceptatie.  Onderdeel daarvan zijn ketenrisico's en risico's die de gehele overheid gelden.
 
-- **Basishygiëne**: basismaatregelen die passen bij een standaard goede informatiebeveiliging. De selectie van hygiënemaatregelen zal hierbij minimaal gelijk zijn aan of hoger liggen dan het vereiste niveau van de cyberhygiëne van NIS2.
+- **Basishygiëne**: basismaatregelen die passen bij een standaard goede informatiebeveiliging. De selectie van hygiënemaatregelen zal hierbij minimaal gelijk zijn aan het vereiste niveau van de cyberhygiëne van NIS2.
 
 - **Ketenrisico’s**: maatregelen die bijdragen aan het mitigeren van risico’s in de keten van overheden en waarbij gezamenlijk handelen door de overheid nodig is.
 
@@ -167,9 +167,9 @@ Het lijnmanagement is verantwoordelijk voor het toepassen van de verplichte behe
 
 ### CISO
 
-De CISO is verantwoordelijk voor de coördinatie van informatiebeveiliging. 
+De CISO is verantwoordelijk voor de coördinatie van het ISMS 
 
-De CISO uitdrukkelijk niet verantwoordelijk voor de informatiebeveiliging door het lijnmanagement. De CISO vertaalt wetgeving en bedrijfsdoelstellingen naar een informatiebeveiligingsbeleid en rapporteert aan het bestuur hoe het lijnmanagement het informatiebeveiligingsbeleid implementeert. 
+De CISO is uitdrukkelijk niet verantwoordelijk voor de informatiebeveiliging door het lijnmanagement. De CISO vertaalt wetgeving en bedrijfsdoelstellingen naar een informatiebeveiligingsbeleid en rapporteert aan het bestuur hoe het lijnmanagement het informatiebeveiligingsbeleid implementeert. 
 
 Om ervoor zorg te dragen dat de bestuurder geïnformeerde besluiten kan maken over de behandeling van informatiebeveiligingsrisico's. De CISO is ondersteunend aan de bestuurder en moet gevraagd en ongevraagd advies kunnen geven aan de bestuurder.
 
@@ -229,6 +229,6 @@ De BIO richt zich op informatiebeveiliging. Onderwerpen zoals privacy, informati
 
 ## Wet- en regelgeving
 
-In BIO zijn een aantal verwijzingen opgenomen naar wet- en regelgeving die relevant zijn voor de gehele overheid. 
+In BIO is een aantal verwijzingen opgenomen naar wet- en regelgeving die relevant zijn voor de gehele overheid. 
 
 De BIO alleen is onvoldoende voor een organisatie om te bepalen of het voldoet aan wet- en regelgeving op het gebied van informatieveiligheid. In lijn met risicomanagement moet een organisatie zelf haar context met de daarin van toepassing zijnde wet- en regelgeving bepalen en dit uitwerken in een reikwijdte als basis voor het in te richten ISMS. 
